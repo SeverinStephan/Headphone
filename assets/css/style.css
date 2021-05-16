@@ -1,0 +1,320 @@
+/* font-family: 'Work Sans', sans-serif;
+
+Farben: #2e2e2e / #867772 / rgb(234, 204, 194) / #ebccc2 / #fff / rgb(115, 115, 115) */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+
+body{
+    margin: 0;
+    font-family:'Work Sans', sans-serif;
+    font-weight: lighter;
+    background-color: #2e2e2e;
+}
+
+h1, h2{
+    color: rgb(234, 204, 194);
+}
+
+body a, p, li{
+    color:rgb(115, 115, 115);
+}
+
+/* HEADER */
+
+header{
+    background: url(../img/section-about-1.jpg) center/contain no-repeat; 
+    background-position-y: 30em;
+    padding-bottom: 60%;
+    background-size: 90%;
+    position: relative;
+    padding-top: 25px;
+}
+
+.nav1{
+    display: inline-block;
+    padding-left: 54%;
+    min-width: 51%;
+    position: fixed;
+    
+}
+
+.nav1 ul{
+    list-style: none;
+    font-size: 15px;
+} 
+
+.nav1 ul:first-child{
+    display: flex;
+}
+
+.nav1 ul li{
+    margin-right: 5%;
+}
+
+header h1{
+    width: 25%;
+    margin: 7% 0 0 30%;
+    padding-top: 6%;
+    line-height: 1.5em;
+}
+
+.nav2{
+    position: absolute;
+    top: 30%;
+    position: fixed;
+}
+.nav2 ul li{
+    padding-bottom: 90%;
+    list-style: none;
+}
+
+.nav2 span{
+    margin: 0px 7%;
+}
+
+.line{
+    border-left: 1px solid rgb(115, 115, 115);
+    min-height: 50px;
+    margin: -88% 0 26% 15%;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color:#fff;
+    text-decoration: underline;
+    transition: 2s;   
+}
+
+li:hover span{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 3% 4%;
+}
+
+.nav2 ul li a:visited span {
+    border: 1px solid rgb(115, 115, 115);
+    border-radius: 50%;
+    padding: 0% 3%;
+}
+
+.logo{
+    position: absolute;
+    margin: 17px;
+    position: fixed;
+    top: 0;
+}
+
+/* DESIGN ALCHEMY */
+
+article{
+    display: flex;
+    padding: 15% 0 10% 0;
+}
+
+article img{
+    width: 30%;
+    margin-left: 21%;
+}
+
+article p{
+    width: 60%;
+    margin-left: 10%;
+    line-height: 1.5em;
+}
+
+article h1{
+    min-width: 41%;
+    font-size: 2em;
+    text-align: left;
+    margin-left: 10%;
+}
+
+/* LOUNGER, EXPERIENCE, SHOP*/
+
+.les img{
+    width: 55%;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.les{
+    padding: 0;
+}
+
+.les h1{
+    margin-top: 35%;
+    width: 60%;
+}
+
+.les p{
+    width: 70%;
+}
+
+/* INSPIRATION */
+
+.video{
+    width: 80%;
+    margin: auto;
+}
+
+
+.articlefour{
+    display: inline-block;
+    padding-top: 0;
+    padding-bottom: 5%;
+    margin-right: 68%;
+}
+
+.articlefour h1{
+    width: 114%;
+    margin-left: 57%;
+}
+
+.articlefour h2{
+    margin-left: 57%;
+    width: 114%;
+}
+
+.sdc{
+    display: flex;
+    margin-left: 53%;
+}
+
+.sdc p{
+    border: 1px solid rgb(234, 204, 194);
+    padding: 4px 30px;
+    margin-right: -14px;
+}
+
+.define{
+    margin-left: 58%;
+    min-width: 70%;
+}
+
+.articlefive{
+    padding: 0;
+    margin-right: 12%;
+}
+
+.articlefive div h1, h2{
+    margin-left: 5%;
+    width: 100%;
+}
+
+.articlefive div p{
+    margin-left: 5%;
+    width: 50%;
+}
+
+.articlesix{
+    padding-top: 0;
+}
+
+/* articlesix h1, h2, p zusammenfügen, funktioniert nicht. 
+Auch bei den anderen Projekten konnte ich das nie zusammenfügen. 
+Ich hab nicht herausgefunden warum es nicht geht. Vielleicht kannst Du mir da eine Rückmeldung geben. */
+
+.articlesix h1{
+    margin-left: 43%;
+    width: 47%;
+}
+
+.articlesix h2{
+    margin-left: 43%;
+    margin-top: 80px;
+}
+
+.articlesix p{
+    margin-left: 43%;
+}
+
+.articlesix img{
+    margin-right: 25%;
+    margin-left: 34px;
+}
+
+/* SHOP */
+.headphones{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+.price{
+    position: absolute;
+    right: 18%;
+    top: 75%;
+    color: #ebccc2;
+    text-align: center;   
+}
+
+.price p{
+    margin-bottom: 5px;
+}
+
+.price h3{
+    display: inline-block;
+    margin: 0;
+}
+
+.price button{
+    background-color: #ebccc2;
+    padding: 10px 25px;
+}
+
+.price button a:hover{
+    text-decoration: none;
+}
+
+/* NEWSLETTER */
+
+.subscribe{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+
+legend{
+    text-align: center;
+    font-size: 2em;
+    color:rgb(115, 115, 115) ;
+}
+
+.subscribe .newsletter h2{
+    margin: auto;
+    padding: 5% 0;
+}
+
+#input{
+    padding: 7px 54px;
+    margin-left: 7%;
+}
+
+#button{
+    padding: 7px 54px;
+    margin-left: 10%;
+    background-color: #ebccc2;
+}
+
+.thankyou{
+    color: green;
+    text-align: center;
+    font-size: 2em;
+    transition: 1s;
+}
+
+.please{
+    color: red;
+    text-align: center;
+    font-size: 2em;
+    transition: 1s;
+}
+
+/* Liebe Franzi! Ich habe leider zu spät gesehen, dass ich alle article ein bisschen mehr hätte zusammenfassen können. 
+Da ich den ersten article aber nicht mit der klasse angesprochen habe musste ich alle anderen article anpassen. Das ist mir nun
+auch bewusst, ich hatte nur leider nicht mehr die Zeit alles zu ändern. Nächstes Mal mache ich das bestimmt besser :-) */
